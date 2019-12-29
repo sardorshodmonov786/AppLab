@@ -307,3 +307,125 @@ body{
         width: 100%;
     }
 }
+.container--awesome-apps{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.awesome-apps__img{
+    position: relative;
+    left: -10%;
+}
+.awesome-apps__header{
+    width: 35%;
+}
+.awesome-apps__heading{
+    font-size: 36px;
+    font-weight: 600;
+    color: #242f51;
+}
+.awesome-apps__heading-text{
+    line-height: 26px;
+    color: #616368;
+}
+.awesome__main-list{
+    padding: 0;
+    list-style-type: none;
+}
+.main-list__item{
+    display: flex;
+    align-items: center;
+    margin-bottom: 75px;
+}
+.item__img-wrapper{
+    margin-right: 30px;
+    padding: 17px;
+    border-radius: 50%;
+}
+.img-wrapper--red{
+    background-color: #ffecef;    
+}
+.img-wrapper--blue{
+    background-color: #f4f4ff;    
+}
+.img-wrapper--green{
+    background-color: #e4ffee;    
+}
+.item__heading{
+    font-weight: 600;
+    font-size: 20px;
+    margin: 0;
+}
+.item__heading--red{
+    color: #f55767;
+}
+.item__heading--blue{
+    color: #2563ff;
+}
+.item__heading--green{
+    color: #40975f;
+}
+.item__text{
+    line-height: 26px;
+}
+@media (max-width: 1050px) {
+    .awesome-apps__img{
+        position: absolute;
+    }
+    .awesome-apps__header{
+        position: relative;
+        top: 0;
+        right: -60%;
+        z-index: 1;
+    }
+}
+@media (max-width: 950px){
+    .container--awesome-apps{
+        text-align: center;
+        flex-direction: column;
+    }
+    .awesome-apps__img{
+        width: 100%;
+        height: auto;
+        position: static;
+        margin: 0 auto;
+    }
+    .awesome-apps__header{
+        position: static;
+        width: 100%;
+        text-align: center;
+        order: -1;
+    }
+    .awesome__main-list{
+        display: flex;
+    }
+    .main-list__item{
+        width: 30%;
+        display: inline-block;
+        margin: 0 20px;
+        flex-grow: 1;
+    }
+    .item__img-wrapper{
+        width: 90px;
+        height: 90px;
+        margin: 20px auto;
+    }
+}
+@media (max-width: 700px) {
+    .awesome__main-list{
+        flex-direction: column;
+        align-items: center;
+    }
+    .main-list__item{
+        width: 80%;
+    }
+    .awesome-apps__img{
+        position: relative;
+    }   
+}
+@media (max-width: 500px) {
+    .awesome-apps__img{
+        width: 100%;
+        height: auto;
+    }
+}
