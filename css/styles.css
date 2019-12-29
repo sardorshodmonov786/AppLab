@@ -429,3 +429,42 @@ body{
         height: auto;
     }
 }
+.container--smart-jackpots{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.smart-jackpots__heading{
+    margin-right: 78px;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 50px;
+    color: #242f51;
+}
+.smart-jackpots__text {
+    padding: 50px;
+    border-left: 1px solid #616368;
+    line-height: 26px;
+    color: #616368;
+}
+@media (max-width: 1000px){
+    .container--smart-jackpots{
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
+    }
+    .smart-jackpots__heading{
+        margin: 0 auto;
+        font-size: 30px;
+    }
+    .smart-jackpots__text{
+        padding: 20px;
+        border-left: none;
+        border-top: 1px solid #616368;
+    }
+}
+@media (max-width: 450px) {
+    .smart-jackpots__heading{
+        font-size: 26px;
+    }   
+}
