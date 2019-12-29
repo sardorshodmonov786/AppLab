@@ -468,3 +468,72 @@ body{
         font-size: 26px;
     }   
 }
+.opportunities__list{
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.opportunities__list-item{
+    width: 265px;
+    margin-right: 130px;
+}
+.opportunities__list-item:last-child{
+    margin-right: 0;
+}
+.opportunities__list-item__img-wrapper{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.opportunities__item__img-wrapper--red{
+    background-color: #ffecef;
+    padding: 18px 11px 12px 19px;
+}
+.opportunities__item__img-wrapper--blue{
+    background-color: #f4f4ff;
+    padding: 15px 17px 15px 12px;
+}
+.opportunities__item__img-wrapper--green{
+    background-color: #e4ffee;
+    padding: 18px 15px 12px;
+}
+.opportunities__list-item__img-wrapper img{
+    display: block;
+    width: 100%;
+}
+.list-item__heading{
+    margin-top: 35px;
+    margin-bottom: 0;
+}
+.list-item__heading--red{
+    color: #f55767;
+}
+.list-item__heading--blue{
+    color: #2563ff;
+}
+.list-item__heading--green{
+    color: #40975f;
+}
+.list-item__text{
+    margin-top: 18px;
+    line-height: 26px;
+    color: #616368;
+}
+@media (max-width: 1150px ) {
+    .opportunities__list{
+        text-align: center;
+    }
+    .opportunities__list-item__img-wrapper{
+        margin: 0 auto;
+    }
+}
+@media (max-width: 800px) {
+    .opportunities__list{
+        flex-direction: column;
+        align-items: center;
+    }
+    .opportunities__list-item{
+        margin-right: 0;
+    }
+}
