@@ -277,3 +277,33 @@ body{
         margin: 10px;
     }
 }
+.trusted-companies__heading{
+    width: 220px;
+    margin: 115px auto 0;
+    font-size: 16px;
+    color: #242f51;
+}
+.trusted-companies__images{
+    display: flex;
+    margin: 40px auto;
+    align-items: center;
+    justify-content: space-around;
+    text-decoration: none;
+}
+@media (max-width: 900px){
+    .trusted-companies__images {
+        display: inline-flex;
+        flex-wrap: wrap;
+    }
+    .trusted-companies__images img{
+        margin: 20px 120px;
+    }
+}
+@media (max-width: 450px) {
+    .trusted-companies__heading{
+        font-weight: 600;
+    }
+    .trusted-companies__images{
+        width: 100%;
+    }
+}
