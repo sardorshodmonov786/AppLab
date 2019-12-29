@@ -1014,3 +1014,123 @@ body{
         font-size: 30px;
     }
 }
+.using-product__main-wrapper{
+    display: flex;
+    align-items: center;
+}
+.using-product__main__header{
+    width: 500px;
+}
+.using-product__heading{
+    margin: 0;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 50px;
+    color: #242f51;
+}
+.using-product__text{
+    line-height: 26px;
+    color: #616368;
+}
+.stars{
+    margin-top: 45px;
+    margin-bottom: 28px;
+}
+.using-product__heading-2{
+    margin-top: 0;
+    margin-bottom: 30px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 58px;
+    color: #242f51;
+}
+.using-product__text-2{
+    width: 567px;
+    margin: 0;
+    line-height: 26px;
+    color: #616368;
+}
+.director-info{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 51px;
+}
+.director-img{
+    margin-right: 30px;
+}
+.name-wrapper{
+    flex-grow: 1;
+}
+.director-lavozmi{
+    margin-top: 15px;
+}
+.side{
+    width: 50px;
+    margin: 0;
+    padding: 20px 16px 19px 17px;
+    border: 1px solid #caced7;
+    border-radius: 50%;
+    transition: box-shadow 0/3s ease;
+}
+.side:hover{
+    box-shadow: 0 0 10px #616368;
+}
+.line{
+    width: 1px;
+    height: 25px;
+    margin:     0 10px;
+    background-color: #616369;
+}
+.right{
+    border: none;
+    background-color: #f4f4ff;
+}
+@media (max-width: 1200px) {
+    .using-product{
+        border-top: 1px solid #616368;
+    }
+    .using-product__main-wrapper{
+        flex-direction: column;
+    }
+    .map{
+        margin: 10px auto 30px;
+    }
+    .using-product__main{
+        width: 100%;
+    }
+    .using-product__heading{
+        width: 80%;
+    }
+    .using-product__text{
+        width: 80%;
+    }
+    .using-product__text-2{
+        width: 80%;
+    }
+}
+@media (max-width: 700px) {
+    .map{
+        width: 100%;
+        margin: 20px auto;
+    }
+    .using-product__text-2{
+        width: 90%;
+        text-align: justify;
+    }
+}
+@media (max-width: 450px) {
+    .using-product__main__header{
+        width: 100%;
+        margin-top: 20px;
+    }
+    .using-product__heading{
+        width: 100%;
+        font-size: 36px;
+    }
+}
+@media (max-width: 400px) {
+    .using-product__heading{
+        font-size: 30px;
+    }
+}
