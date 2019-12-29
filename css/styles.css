@@ -1134,3 +1134,121 @@ body{
         font-size: 30px;
     }
 }
+.frequently-questions__header{
+    text-align: center;
+}
+.frequently-questions__heading{
+    margin: 0;
+    margin-bottom: 35px;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 58px;
+    color: #242f51;
+}
+.frequently-questions__heading-text {
+    width: 600px;
+    margin: 0 auto;
+    line-height: 26px;
+    color: #616368;
+}
+.emergency__header{
+    width: 945px;
+    margin: 66px auto 10px;
+    padding: 46px;
+    padding-right: 90px;
+    background-color: #f5f7fa;
+}
+.emergency__header:hover{
+    box-shadow: 0 0 10px #616368;
+}
+.emergency__heading{
+    margin: 0;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 58px;
+    color: #242f51;
+}
+.emergency__text{
+    margin: 0;
+    margin-top: 40px;
+    line-height: 26px;
+    color: #616368;
+}
+.emergency__list{
+    width: 945px;
+    margin: 0 auto;
+    padding: 0;
+}
+.emergency__item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding: 23px 38px 18px 50px;
+    background-color: #f5f7fa;
+    transition: box-shadow 0.3s ease;
+}
+.emergency__item:hover{
+    box-shadow: 0 0 10px #616368;
+}
+.emergency__item-heading{
+    margin: 0;
+    font-weight: 500;
+    font-size: 20px;
+    color: #242f51;
+}
+.emergency__button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease;
+    background-color: #f4f7fa;
+}
+.emergency__button:hover{
+    box-shadow: 0 0 5px #616368;
+}
+@media (max-width: 1100px) {
+    .frequently-questions{
+        border-top: 1px solid #616368;
+    }
+    .frequently-questions__header{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .frequently-questions__heading-text{
+        width: 80%;
+    }
+    .emergency__header{
+        width: 80%;
+    }
+    .emergency__list{
+        width: 80%;
+    }
+}
+@media (max-width: 700px) {
+    .emergency__header{
+        padding: 40px;
+        text-align: justify;
+    }
+}
+@media (max-width: 450px) {
+    .frequently-questions__heading{
+        font-size: 36px;
+    }
+    .emergency__header{
+        padding: 15px;
+    }
+    .emergency__heading{
+        text-align: center;
+    }
+    .emergency__item{
+        padding: 15px;
+    }
+    .emergency__item-heading{
+        font-size: 14px;
+    }
+}
